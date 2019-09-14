@@ -5,13 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Coffee Gallery</title>
+
     <!-- Bootstrap-->
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
-    <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css"> -->
-
 
     <!-- css -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -23,7 +20,6 @@
 
 
 
-    <title>Coffee </title>
 </head>
 
 <body id="page-top">
@@ -47,8 +43,7 @@
     </header>
     <main>
 
-        <!-------------About--------------->
-
+        <!-- About -->
         <div id="about">
 
             <div class="container">
@@ -71,7 +66,7 @@
             </div>
         </div>
 
-        <!------------Gallary-------------->
+        <!-- Gallary -->
         <div class="SectionBeans">
             <div id="beans">
                 <div class="section-title text-center center">
@@ -89,182 +84,183 @@
                         <ul class="list">
                             <li>
                                 <ol class="type">
-                                    <li><a href="#" onclick="filter('*')" data-filter="*" class="active">All</a></li>
-                                    <li><a href="#" onclick="filter('machines')" data-filter=".machines">Machines</a></li>
-                                    <li><a href="#" onclick="filter('mugs')" data-filter=".mugs">Mugs</a></li>
-                                    <li><a href="#" onclick="filter('tools')" data-filter=".tools">Tools</a>
+                                    <li><button class="selected" data-filter="all">All</button></li>
+                                    <li><button data-filter="machines">Machines</button></li>
+                                    <li><button data-filter="mugs">Mugs</button></li>
+                                    <li><button data-filter="tools">Tools</button>
                                     </li>
                                 </ol>
                             </li>
                         </ul>
-
                     </div>
+
                     <!-- Img Gallery-->
                     <section class="grid grid-img">
 
-                        <div class="item">
-                            <div class="hover-text">
-                                <h4>Espresso Profitec 300</h4>
-                                <div class="img-items people">
-                                    <img src="img/portfolio/01-large.jpg" class="img-thumbnail" alt="Project Title" width="600" height="400"> </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
+                        <div class="item machines">
                             <div class="hover-text">
                                 <h4>Espresso Profitec 300</h4>
                                 <div class="img-items machines">
-                                    <img src="img/portfolio/02-large.jpg" class="img-thumbnail" alt="Project Title" width="600" height="400"> </a>
+                                    <img title="ProFitec 700 Espresso Machine" src="img/portfolio/01-large.jpg" class="img-thumbnail" alt="Project Title" width="600" height="400">
                                 </div>
                             </div>
                         </div>
-                        <div class="item">
+                        <div class="item machines">
                             <div class="hover-text">
                                 <h4>Espresso Profitec 300</h4>
                                 <div class="img-items machines">
-                                    <img src="img/portfolio/03-large.jpg" class="img-thumbnail" alt="Project Title" width="600" height="400"> </a>
+                                    <img title="Baratza Sette 270Wi Coffee Grinder" src="img/portfolio/02-large.jpg" class="img-thumbnail" alt="Project Title" width="600" height="400">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item machines">
+                            <div class="hover-text">
+                                <h4>Espresso Profitec 300</h4>
+                                <div class="img-items machines">
+                                    <img title="ROK:Manual Piston Espresso Machines" src="img/portfolio/03-large.jpg" class="img-thumbnail" alt="Project Title" width="600" height="400">
                                 </div>
                             </div>
                         </div>
 
                         <!-- Img Gallary2-->
 
-                        <div class="item">
+                        <div class="item machines">
                             <div class="hover-text">
                                 <h4>Espresso Profitec 300</h4>
                                 <div class="img-items machines">
-                                    <img src="img/portfolio/04-large.jpg" class="img-thumbnail" alt="Project Title" width="600" height="400"> </a>
+                                    <img title="Mazzer Mini E Espresso Grinder" src="img/portfolio/04-large.jpg" class="img-thumbnail" alt="Project Title" width="600" height="400">
                                 </div>
                             </div>
                         </div>
-                        <div class="item">
+                        <div class="item machines">
                             <div class="hover-text">
                                 <h4>Espresso Profitec 300</h4>
                                 <div class="img-items machines">
-                                    <img src="img/portfolio/05-large.jpg" class="img-thumbnail" alt="Project Title" width="600" height="400"> </a>
+                                    <img title="Comandante Hand Grinder" src="img/portfolio/05-large.jpg" class="img-thumbnail" alt="Project Title" width="600" height="400">
                                 </div>
                             </div>
                         </div>
-                        <div class="item">
+                        <div class="item machines">
                             <div class="hover-text">
                                 <h4>Espresso Profitec 300</h4>
                                 <div class="img-items machines">
-                                    <img src="img/portfolio/06-large.jpg" class="img-thumbnail" alt="Project Title" width="600" height="400"> </a>
+                                    <img title="Pro T64 - Profitec" src="img/portfolio/06-large.jpg" class="img-thumbnail" alt="Project Title" width="600" height="400">
                                 </div>
                             </div>
                         </div>
-                        <div class="item">
+                        <div class="item tools">
                             <div class="hover-text">
                                 <h4>Espresso Profitec 300</h4>
                                 <div class="img-items tools">
-                                    <img src="img/portfolio/tools1.jpg" class="img-thumbnail" alt="Project Title" width="600" height="400"> </a>
+                                    <img title="Chemex Coffeemaker" src="img/portfolio/07-large.jpg" class="img-thumbnail" alt="Project Title" width="600" height="400">
                                 </div>
                             </div>
                         </div>
 
-                        <div class="item">
+                        <div class="item tools">
                             <div class="hover-text">
                                 <h4>Espresso Profitec 300</h4>
                                 <div class="img-items tools">
-                                    <img src="img/portfolio/tools2.jpg" class="img-thumbnail" alt="Project Title" width="600" height="400"> </a>
+                                    <img title="Stagg Pour-Over Kettle" src="img/portfolio/tools2.jpg" class="img-thumbnail" alt="Project Title" width="600" height="400">
                                 </div>
                             </div>
                         </div>
 
-                        <div class="item">
+                        <div class="item tools">
                             <div class="hover-text">
                                 <h4>Espresso Profitec 300</h4>
                                 <div class="img-items tools">
-                                    <img src="img/portfolio/tools3.jpg" class="img-thumbnail" alt="Project Title" width="600" height="400"> </a>
+                                    <img title="Epson TM-P80 Series" src="img/portfolio/tools3.jpg" class="img-thumbnail" alt="Project Title" width="600" height="400">
                                 </div>
                             </div>
                         </div>
 
-                        <div class="item">
+                        <div class="item tools">
                             <div class="hover-text">
                                 <h4>Espresso Profitec 300</h4>
                                 <div class="img-items tools">
-                                    <img src="img/portfolio/tools7.jpg" class="img-thumbnail" alt="Project Title" width="600" height="400"> </a>
+                                    <img title="Slow Coffee Style" src="img/portfolio/tools1.jpg" class="img-thumbnail" alt="Project Title" width="600" height="400">
                                 </div>
                             </div>
                         </div>
 
-                        <div class="item">
+                        <div class="item tools">
                             <div class="hover-text">
                                 <h4>Espresso Profitec 300</h4>
                                 <div class="img-items tools">
-                                    <img src="img/portfolio/tools4.jpg" class="img-thumbnail" alt="Project Title" width="600" height="400"> </a>
+                                    <img title="Slow Coffee Style Brewer" src="img/portfolio/tools7.jpg" class="img-thumbnail" alt="Project Title" width="600" height="400">
                                 </div>
                             </div>
                         </div>
 
-                        <div class="item">
+                        <div class="item tools">
                             <div class="hover-text">
                                 <h4>Espresso Profitec 300</h4>
                                 <div class="img-items tools">
-                                    <img src="img/portfolio/tools6.jpg" class="img-thumbnail" alt="Project Title" width="600" height="400"> </a>
+                                    <img title="Mug" src="img/portfolio/tools6.jpg" class="img-thumbnail" alt="Project Title" width="600" height="400">
                                 </div>
                             </div>
                         </div>
 
-                        <div class="item">
+                        <div class="item mugs">
                             <div class="hover-text">
                                 <h4>Espresso Profitec 300</h4>
                                 <div class="img-items mugs">
-                                    <img src="img/portfolio/mugs4.jpg" class="img-thumbnail" alt="Project Title" width="600" height="400"> </a>
+                                    <img title="Mug" src="img/portfolio/mugs4.jpg" class="img-thumbnail" alt="Project Title" width="600" height="400">
                                 </div>
                             </div>
                         </div>
 
 
-                        <div class="item">
+                        <div class="item mugs">
                             <div class="hover-text">
                                 <h4>Espresso Profitec 300</h4>
                                 <div class="img-items mugs">
-                                    <img src="img/portfolio/mugs1.jpg" class="img-thumbnail" alt="Project Title" width="600" height="400"> </a>
+                                    <img title="Mug" src="img/portfolio/mugs1.jpg" class="img-thumbnail" alt="Project Title" width="600" height="400">
                                 </div>
                             </div>
                         </div>
 
-                        <div class="item">
+                        <div class="item mugs">
                             <div class="hover-text">
                                 <h4>Espresso Profitec 300</h4>
                                 <div class="img-items mugs">
-                                    <img src="img/portfolio/mugs6.jpg" class="img-thumbnail" alt="Project Title" width="600" height="400"> </a>
+                                    <img title="Mug" src="img/portfolio/mugs6.jpg" class="img-thumbnail" alt="Project Title" width="600" height="400">
                                 </div>
                             </div>
                         </div>
 
-                        <div class="item">
+                        <div class="item mugs">
                             <div class="hover-text">
                                 <h4>Espresso Profitec 300</h4>
                                 <div class="img-items mugs">
-                                    <img src="img/portfolio/mugs5.jpg" class="img-thumbnail" alt="Project Title" width="600" height="400"> </a>
+                                    <img title="Mug" src="img/portfolio/mugs5.jpg" class="img-thumbnail" alt="Project Title" width="600" height="400">
                                 </div>
                             </div>
                         </div>
 
-                        <div class="item">
+                        <div class="item mugs">
                             <div class="hover-text">
                                 <h4>Espresso Profitec 300</h4>
                                 <div class="img-items mugs">
-                                    <img src="img/portfolio/mugs2.jpg" class="img-thumbnail" alt="Project Title" width="600" height="400"> </a>
+                                    <img title="Mug" src="img/portfolio/mugs2.jpg" class="img-thumbnail" alt="Project Title" width="600" height="400">
                                 </div>
                             </div>
                         </div>
 
-                        <div class="item">
+                        <div class="item mugs">
                             <div class="hover-text">
                                 <h4>Espresso Profitec 300</h4>
                                 <div class="img-items mugs">
-                                    <img src="img/portfolio/mugs9.jpg" class="img-thumbnail" alt="Project Title" width="600" height="400"> </a>
+                                    <img title="Mug" src="img/portfolio/mugs9.jpg" class="img-thumbnail" alt="Project Title" width="600" height="400">
                                 </div>
                             </div>
                         </div>
+                    </section>
                 </div>
             </div>
 
-            </section>
+
 
 
             <!-- tutorial coffee -->
@@ -273,9 +269,9 @@
                     <div class="section-title text-center center">
                         <div class="Tools-coffee">
                             <h2>Tutorial</h2>
-
                         </div>
                     </div>
+
                     <video width="320" height="240" controls>
                             <source src="video/How to Brew Chemex Coffee.mp4" type="video/mp4">
                            </video>
@@ -286,7 +282,6 @@
 
     <footer>
         <div class="div-footer ">
-
             <p> © 2019 Coffee Gallary All rights reserved. Designed by Bashayer Alghafis </p>
         </div>
 

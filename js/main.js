@@ -1,9 +1,18 @@
-function filter(x) {
-    $(".img-item").addClass("hideImg")
+ $(".type button").click(function() {
+     $(".type button").removeClass("selected");
 
-    if (x == "*") {
-        $(".img-items").removeClass("hideImg")
-    } else {
-        $("." + x).removeClass("hideImg")
-    }
-}
+     $(this).addClass("selected");
+
+     var dataFilter = $(this).data('filter');
+
+     if (dataFilter == "all") {
+         $(".item").css('display', 'block');
+     } else {
+
+         $(".item").css('display', 'none');
+
+         $("." + dataFilter).css('display', 'block');
+
+
+     }
+ });
